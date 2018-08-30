@@ -49,3 +49,118 @@ h6{
 }
 
 
+
+.firstinfo {
+  display: flex;
+ justify-content: center;
+  align-items: center;
+  
+}
+.card {
+  margin-left: 120px;
+  width: 287px;
+  min-height: 446px;
+  background-color: white;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+  border: 2px solid rgb(59, 59, 59);
+}
+
+
+.card:after {
+  margin-top: 265px;
+  content: '';
+  display: block;
+  width: 400px;
+  border-top: 0.5em solid #ca8d00;
+  background:#003457;
+  border-bottom: 0.5em solid #dc2c34;
+  position: absolute;
+}
+.card:before {
+  content: '';
+  display: block;
+  width: 400px;
+  margin-top: 435px;
+  border-bottom: 0.5em solid #003457;
+  position: absolute;
+}
+
+
+
+.firstinfo .avatar {
+  width: 150px;
+  height: 150px;
+  margin-top: 5px;
+  margin-left: 0px;
+ text-align: center;
+  border:5px solid gray;
+
+  /* los siguientes valores son independientes del tamaño del círculo */
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+  background-size: 150% auto;
+}
+.firstinfo .profileinfo {
+  padding-top: 440px;
+  position: absolute;
+}
+.firstinfo .profileinfo h1 {
+  font-size: 1.8em;
+  padding-top: 0;
+  margin: 0;
+}
+.firstinfo .profileinfo h3 {
+  font-size: 1.2em;
+  color: #140152;
+  font-family: 'Verdana';
+  font-weight: bold;  
+  margin: 0;
+}
+.firstinfo .profileinfo p.bio {
+  width: 280px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  color: rgb(15, 15, 15);
+}
+
+.pie {
+  font-style: italic;
+  color: rgb(15, 15, 15);
+  margin-top: 15px;
+  padding: 0;
+  font-size: 0.7em;
+}
+
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+hr{
+  width: 100%;
+  padding: 0;
+  margin-top: 5px;
+}
+.marca-de-agua {
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 150%;
+  height: auto;
+  position: absolute;
+}
+.marca-de-agua img {
+  width: 50%;
+  height: auto;
+  opacity: 0.3;
+  z-index: 0;
+  margin-top:400px;
+  
+}
+
+
+

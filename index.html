@@ -64,7 +64,7 @@
           <div class="file-field col s12 input-field">
             <div class="btn red">
               <span>Archivo</span>
-              <input type="file">
+              <input id="dato_img" type="file">
             </div>
             <div class="file-path-wrapper">
               <input class="file-path validate" type="text" placeholder="Seleccione imagen de carnet">
@@ -82,21 +82,28 @@
 
 
       <div class="carnet center col s12 m6 l6">
-        <div class="row">
-          <h1>Carnet</h1>
-          <div class="divider"></div>
-          <br>
-          <div class="col s12 m7 align-left" id="imagen-carnet">
-            <div class="card">
-              <div class="card-image avatar">
-                <img src="img/miavatar.png">
+        <h1>Carnet</h1>
+        <div class="divider"></div>
+
+        <div class="row content">
+          <div class="card" id="imagen-carnet">
+            <div class="firstinfo">
+              <div class="avatar" id="cargas" style="background-image: url('img/imagen.jpg')"></div>
+              <div class="marca-de-agua">
+                <img src="img/logo.png" alt="">
               </div>
-              <div class="card-content">
-                <h5>Jonathan Moreno</h5>
-                <h6>Técnico Docente</h6>
-                <p>Juigalpa, Chontales</p>
-                <p>INSS</p>
-                <p>000-000000-00000</p>
+              <div class="profileinfo">
+                <h1>Teddy José</h1>
+                <h1>Solis Duarte</h1>
+                <h3>Instructor de deportes</h3>
+                <hr>
+                <h6>Datos:</h6>
+                <hr>
+                <p class="bio">302574</p>
+                <p class="bio">121-140980-0001J</p>
+                <p class="bio">Del Bar Central 3c al norte y 1/2c al este. Juigalpa, Chontales</p>
+                <p class="pie">UNAN FAREM Chontales <br> <span>A la libertad por la Universidad!</span> </p>
+
               </div>
             </div>
           </div>
@@ -119,6 +126,21 @@
 
   <script>
     $("document").ready(function () {
+
+      //Para el input
+      var inputFile = document.getElementById('dato_img');
+      inputFile.addEventListener('change', mostrarImagen, false);
+
+      function mostrarImagen(event) {
+        var file = event.target.files[0];
+        var reader = new FileReader();
+        reader.onload = function (event) {
+          $('#cargas').css('background-image', 'url(' + event.target.result + ')');
+        }
+        reader.readAsDataURL(file);
+      }
+
+
       var aimprimir = $("#imagen-carnet");
       var vista_imagen;
 
@@ -141,6 +163,9 @@
         var newData = imgageData.replace(/^data:image\/jpg/, "data:application/octet-stream");
         $("#descargar-carnet").attr("download", "your_pic_name.jpg").attr("href", newData);
       });
+
+
+
     });
   </script>
 </body>
