@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sistema Web Carnet</title>
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <!-- Estilos propios -->
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+  <div class="navbar-fixed">
+    <nav class="green">
+      <div class="nav-wrapper">
+        <div class="container">
+          <a href="#" class="brand-logo">App-CARNET</a>
+          <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#">Carnet</a></li>
+            <li><a href="#">Búsquedas</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <ul class="side-nav" id="mobile-menu">
+    <li><a href="#">Carnet</a></li>
+    <li><a href="#">Búsquedas</a></li>
+
+  </ul>
+  <!-- $(".button-collapse").sideNav(); -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col s12 m6 l6">
+        <h1>Datos</h1>
+        <div class="divider"></div>
+        <form>
+          <div class="input-field col s12 l6">
+            <input type="text" id="nombres" class="validate">
+            <label for="nombres">Nombres</label>
+          </div>
+          <div class="input-field col s12 l6">
+            <input type="text" id="apellidos" class="validate">
+            <label for="apellidos">Apellidos</label>
+          </div>
+          <div class="input-field col s12">
+            <input type="text" id="carnet" class="validate">
+            <label for="carnet"># de Carnet</label>
+          </div>
+          <div class="input-field col s12">
+            <input type="text" id="carrera" class="validate">
+            <label for="carrera">Carrera</label>
+          </div>
+          <div class="input-field col s12">
+            <input type="text" id="carrera" class="validate">
+            <label for="carrera">Año</label>
+          </div>
+          <div class="file-field col s12 input-field">
+            <div class="btn red">
+              <span>Archivo</span>
+              <input type="file">
+            </div>
+            <div class="file-path-wrapper">
+              <input class="file-path validate" type="text" placeholder="Seleccione imagen de carnet">
+            </div>
+          </div>
+          <br><br><br><br>
+          <button class="btn waves-effect waves-light blue" type="submit" name="action">Generar
+            <i class="material-icons right">send</i>
+          </button>
+          <button class="right btn waves-effect waves-light green" type="submit" name="action">Cargar
+            <i class="material-icons right">accessibility</i>
+          </button>
+        </form>
+      </div>
+
+
+      <div class="carnet center col s12 m6 l6">
+        <div class="row">
+          <h1>Carnet</h1>
+          <div class="divider"></div>
+          <br>
+          <div class="col s12 m7 align-left" id="imagen-carnet">
+            <div class="card">
+              <div class="card-image avatar">
+                <img src="img/miavatar.png">
+              </div>
+              <div class="card-content">
+                <h5>Jonathan Moreno</h5>
+                <h6>Técnico Docente</h6>
+                <p>Juigalpa, Chontales</p>
+                <p>INSS</p>
+                <p>000-000000-00000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a href="" id="descargar-carnet" class="center btn waves-effect waves-light purple"><i class="material-icons right">add_a_photo</i>Descargar</a>
+        <button class="right btn waves-effect waves-light gray" type="submit" name="action" id="preview">Preview
+          <i class="material-icons right">camera_front</i>
+        </button>
+      </div>
+    </div>
+
+  </div>
+  <div class="container center" id="vista">
+  </div>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/html2canvas.min.js"></script>
+  <script src="js/materialize.min.js"></script>
+
+  <script>
+    $("document").ready(function () {
+      var aimprimir = $("#imagen-carnet");
+      var vista_imagen;
+
+      $(".button-collapse").sideNav();
+      $('.scrollspy').scrollSpy({
+        scrollOffset: 80,
+      });
+      $('.slider').slider({ indicators: false, height: 320 });
+
+      $("#preview").on('click', function () {
+        html2canvas(document.querySelector("#imagen-carnet")).then(canvas => {
+          $("#vista").append(canvas);
+          vista_imagen = canvas;
+        });
+      });
+
+
+      $("#descargar-carnet").on('click', function () {
+        var imgageData = vista_imagen.toDataURL("image/jpg");
+        var newData = imgageData.replace(/^data:image\/jpg/, "data:application/octet-stream");
+        $("#descargar-carnet").attr("download", "your_pic_name.jpg").attr("href", newData);
+      });
+    });
+  </script>
+</body>
+
+</html>
