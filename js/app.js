@@ -39,6 +39,7 @@ $("document").ready(function () {
 
     html2canvas(document.querySelector("#imagen-carnet"), { allowTaint: true, logging: true }).then(function (canvas) {
       $("#vista").append(canvas);
+      vista_imagen = canvas;
     });
   });
 

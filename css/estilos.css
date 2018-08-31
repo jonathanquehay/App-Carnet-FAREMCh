@@ -120,8 +120,8 @@ hr{
   font-weight: bold;  
   margin: 0;
 }
-.firstinfo .profileinfo p.bio {
-  width: 260px;
+.firstinfo .profileinfo .bio{
+  width: 250px;
   font-weight: bold;
   padding: 0;
   margin: 0;
@@ -129,6 +129,7 @@ hr{
   text-align: center;
 }
 .firstinfo .profileinfo p.leyenda{
+  
   font-size: 12px;
   font-weight: bold;
   font-style: italic;
@@ -136,10 +137,17 @@ hr{
   padding: 0;
 }
 
+.dir{
+  font-size: 0.6em;
+  overflow:hidden;
+  width: 100%;
+
+}
+
 .pie {
   font-style: italic;
   color: rgb(15, 15, 15);
-  margin-top: 20px;
+  margin-top: 10px;
   padding: 0;
   font-size: 0.7em;
   border-bottom: 0.35em solid #e07b07;
