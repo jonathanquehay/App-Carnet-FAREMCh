@@ -154,6 +154,15 @@ hr{
 
 }
 
+#nombres_apell{
+  display: none;
+}
+
+td, .busqueda{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
 h6 {
   padding: 0;
   margin: 0;

@@ -35,6 +35,24 @@
   </ul>
   <!-- $(".button-collapse").sideNav(); -->
 
+  <table class="bordered highlight" id="nombres_apell">
+    <input type="text" id="busqueda" name="busqueda" class="busqueda" placeholder="Escriba para buscar">
+
+    <thead>
+
+      <tr>
+        <th data-field="nombre">Nombres</th>
+        <th data-field="apellido">Apellidos</th>
+        <th data-field="cargo">Cargo</th>
+        <th data-field="inss">INSS</th>
+        <th data-field="cedula">Cédula</th>
+        <th data-field="direccion">Dirección</th>
+      </tr>
+    </thead>
+    <tbody id="mostrarTabla">
+    </tbody>
+  </table>
+
   <div class="container">
     <div class="row">
       <div class="col s12 m6 l6">
@@ -139,6 +157,7 @@
   <script src="js/html2canvas.min.js"></script>
   <script src="js/materialize.min.js"></script>
   <script src="js/app.js"></script>
+  <script src="js/json.js"></script>
 
 </body>
 
