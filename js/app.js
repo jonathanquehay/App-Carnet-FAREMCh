@@ -61,6 +61,8 @@ $("document").ready(function () {
     $("#d_inss").append(e.target.inss.value);
     $("#d_cedula").append(e.target.cedula.value);
     $("#d_direccion").append(e.target.direccion.value);
+    this.reset();
+
   }
   function limpia() {
     // document.getElementById("d_nombres").innerHTML = "";

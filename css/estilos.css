@@ -62,7 +62,7 @@ h6{
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
   position: relative;
   overflow: hidden;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Century Gothic', sans-serif;
   border: 2px solid rgb(59, 59, 59);
   border-radius: 10px;
 }
@@ -74,17 +74,23 @@ h6{
   line-height: 12px;
   display: block;
   width: 285px;
-  height: 29.7px;
+  height: 32.7px;
   color: white;
   font-weight: bold;
   font-size: 0.8em;
+  border-top: 0.35em solid #e07b07;
   border-bottom: 0.35em solid #e07b07;
   background: #056cb1;
   position: absolute;
+  padding: 0 0 2px 0;
+  font-family: 'Century Gothic', sans-serif;
+  
 }
 
 hr{
   width: 250px !important;
+  padding: 0;
+  margin: 0;
 }
 
 
@@ -116,7 +122,7 @@ hr{
 .firstinfo .profileinfo h3 {
   font-size: 1.2em;
   color: #140152;
-  font-family: 'Verdana';
+  font-family: 'Century Gothic', sans-serif;
   font-weight: bold;  
   margin: 0;
 }
@@ -127,27 +133,30 @@ hr{
   margin: 0;
   color: rgb(15, 15, 15);
   text-align: center;
+  
 }
 .firstinfo .profileinfo p.leyenda{
   
-  font-size: 12px;
-  font-weight: bold;
+  font-size: 14px;
+  font-weight: 300;
   font-style: italic;
   margin: 0;
   padding: 0;
+  line-height: 16px;
+  
 }
 
 .dir{
-  font-size: 0.6em;
+  font-size: 11px;
   overflow:hidden;
   width: 100%;
-
+  font-family: Arial, Helvetica, sans-serif !important;
+  line-height: 12px;
 }
 
 .pie {
   font-style: italic;
   color: rgb(15, 15, 15);
-  margin-top: 10px;
   padding: 0;
   font-size: 0.7em;
   border-bottom: 0.35em solid #e07b07;
