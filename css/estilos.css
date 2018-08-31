@@ -23,9 +23,7 @@
 }
 
 
-hr{
-  width: 80px;
-}
+
 a.active {
   background-color: rgba(10, 197, 197, 0.5);
 }
@@ -66,46 +64,48 @@ h6{
   overflow: hidden;
   font-family: 'Open Sans', sans-serif;
   border: 2px solid rgb(59, 59, 59);
+  border-radius: 10px;
 }
 
 
 .card:after {
-  margin-top: 265px;
-  content: '';
+  top: 0;
+  content: 'Universidad Nacional Autónoma de Nicaragua UNAN-Managua | FAREM Chontales';
+  line-height: 12px;
   display: block;
-  width: 400px;
-  border-top: 0.5em solid #ca8d00;
-  background:#003457;
-  border-bottom: 0.5em solid #dc2c34;
-  position: absolute;
-}
-.card:before {
-  content: '';
-  display: block;
-  width: 400px;
-  margin-top: 435px;
-  border-bottom: 0.5em solid #003457;
+  width: 285px;
+  height: 29.7px;
+  color: white;
+  font-weight: bold;
+  font-size: 0.8em;
+  border-bottom: 0.35em solid #e07b07;
+  background: #056cb1;
   position: absolute;
 }
 
+hr{
+  width: 250px !important;
+}
 
 
 .firstinfo .avatar {
   width: 150px;
   height: 150px;
-  margin-top: 5px;
+  margin-top: 35px;
   margin-left: 0px;
- text-align: center;
-  border:5px solid gray;
+  text-align: center;
+  border:5px solid rgb(58, 56, 56);
 
   /* los siguientes valores son independientes del tamaño del círculo */
   background-repeat: no-repeat;
   background-position: 50%;
   border-radius: 50%;
   background-size: 150% auto;
+  -webkit-filter: brightness(190%);
+  filter:brightness(190%);
 }
 .firstinfo .profileinfo {
-  padding-top: 440px;
+  padding-top: 460px;
   position: absolute;
 }
 .firstinfo .profileinfo h1 {
@@ -121,19 +121,29 @@ h6{
   margin: 0;
 }
 .firstinfo .profileinfo p.bio {
-  width: 280px;
+  width: 260px;
   font-weight: bold;
   padding: 0;
   margin: 0;
   color: rgb(15, 15, 15);
+  text-align: center;
+}
+.firstinfo .profileinfo p.leyenda{
+  font-size: 12px;
+  font-weight: bold;
+  font-style: italic;
+  margin: 0;
+  padding: 0;
 }
 
 .pie {
   font-style: italic;
   color: rgb(15, 15, 15);
-  margin-top: 15px;
+  margin-top: 20px;
   padding: 0;
   font-size: 0.7em;
+  border-bottom: 0.35em solid #e07b07;
+
 }
 
 h6 {
