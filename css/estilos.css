@@ -97,6 +97,7 @@ hr{
   width: 150px;
   padding: 0;
   margin: 0;
+  margin-bottom: 12px;
 }
 
 
@@ -117,7 +118,7 @@ hr{
   filter:brightness(190%);
 }
 .firstinfo .profileinfo {
-  padding-top: 450px;
+  padding-top: 455px;
   position: absolute;
 }
 .firstinfo .profileinfo h1 {
@@ -158,17 +159,16 @@ hr{
   overflow:hidden;
   width: 100%;
   font-family: Arial, Helvetica, sans-serif !important;
-  line-height: 12px;
-  height: 36px;
+  line-height: 10px;
+  height: 32px;
 }
 
 .pie {
   font-style: italic;
   color: rgb(15, 15, 15);
   padding: 0;
-  margin-bottom: 2px;
   font-size: 0.7em;
-  border-bottom: 0.20em solid #e07b07;
+  border-bottom: 0.25em solid #e07b07;
 
 }
 
