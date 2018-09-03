@@ -93,6 +93,12 @@ hr{
   margin: 0;
 }
 
+.firma{
+  width: 150px;
+  padding: 0;
+  margin: 0;
+}
+
 
 .firstinfo .avatar {
   width: 150px;
@@ -111,13 +117,14 @@ hr{
   filter:brightness(190%);
 }
 .firstinfo .profileinfo {
-  padding-top: 460px;
+  padding-top: 450px;
   position: absolute;
 }
 .firstinfo .profileinfo h1 {
-  font-size: 1.8em;
+  font-size: 1.5em;
   padding-top: 0;
   margin: 0;
+  font-weight: bold;
 }
 .firstinfo .profileinfo h3 {
   font-size: 1.2em;
@@ -138,11 +145,11 @@ hr{
 .firstinfo .profileinfo p.leyenda{
   
   font-size: 14px;
-  font-weight: 300;
-  font-style: italic;
+  font-weight: 540;
   margin: 0;
   padding: 0;
   line-height: 16px;
+  font-family: Arial;
   
 }
 
@@ -152,14 +159,16 @@ hr{
   width: 100%;
   font-family: Arial, Helvetica, sans-serif !important;
   line-height: 12px;
+  height: 36px;
 }
 
 .pie {
   font-style: italic;
   color: rgb(15, 15, 15);
   padding: 0;
+  margin-bottom: 2px;
   font-size: 0.7em;
-  border-bottom: 0.35em solid #e07b07;
+  border-bottom: 0.20em solid #e07b07;
 
 }
 
