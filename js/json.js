@@ -1,4 +1,12 @@
 var datos = [
+   {
+   "nombres": "Carlos Rafael",
+   "apellidos": "Nicaragua Flores",
+   "cargo": "Cultura",
+   "inss": 484238,
+   "cedula": "1212410770000D",
+   "direccion": "Bo. Tamanes, Polideportivo 1c oeste 1/2c al sur, Juigalpa, Chontales"
+ },
   {
    "nombres": "José Javier",
    "apellidos": "Robleto Medina",
