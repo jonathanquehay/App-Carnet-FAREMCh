@@ -1,5 +1,13 @@
 var datos = [
   {
+    "nombres": "Wilber Agustín",
+    "apellidos": "Cruz Solís",
+    "cargo": "Técnico",
+    "inss": 17202741,
+    "cedula": "121-280881-0002E",
+    "direccion": "ENITEL 4c al este y 1/2c al norte"
+  },
+  {
     "nombres": "Ronier Eliézer",
     "apellidos": "Peña López",
     "cargo": "Docente",
