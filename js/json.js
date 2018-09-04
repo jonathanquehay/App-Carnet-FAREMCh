@@ -1,5 +1,29 @@
 var datos = [
   {
+   "nombres": "José Javier",
+   "apellidos": "Robleto Medina",
+   "cargo": "Deporte",
+   "inss": 15386371,
+   "cedula": "1282907650002J",
+   "direccion": "Rpto. San Ramón, entrada 3c al norte 1/2c oeste, Juigalpa, Chontales."
+ },
+ {
+   "nombres": "Carlos Rafael",
+   "apellidos": "Nicaragua Flores",
+   "cargo": "Cultura",
+   "inss": ,
+   "cedula": "1212410770000D",
+   "direccion": "Bo. Tamanes, Polideportivo 1c oeste 1/2c al sur, Juigalpa, Chontales"
+ },
+ {
+   "nombres": "José Miguel",
+   "apellidos": "Lacayo Rodríguez",
+   "cargo": "Deporte",
+   "inss": 27380484,
+   "cedula": "1210612890002P",
+   "direccion": "Zona No 3, del Parque central 1 1/2c al oeste, Juigalpa, Chontales."
+ },
+ {
     "nombres": "Wilber Agustín",
     "apellidos": "Cruz Solís",
     "cargo": "Técnico",
