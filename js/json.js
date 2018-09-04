@@ -1,467 +1,707 @@
 var datos = [
   {
-    "cargo": "Docente",
     "nombres": "Ronier Eliézer",
-    "apellidos": " Peña López",
+    "apellidos": "Peña López",
+    "cargo": "Docente",
     "inss": 24612766,
     "cedula": "126-240492-0000U",
-    "direccion": "BO  Zona # 4, Pensión Meza 1C este 1/2 al sur"
+    "direccion": "BO Zona # 4, Pensión Meza 1C este 1/2 al sur Juigalpa Chontales"
   },
   {
-    "cargo": "Docente",
-    "nombres": "Miguel Ernesto ",
+    "nombres": "Miguel Ernesto",
     "apellidos": "Lacayo Bermúdez",
+    "cargo": "Docente",
     "inss": 5022906,
     "cedula": "001-040661-0001K",
-    "direccion": "Profamilia 150 m al sur."
+    "direccion": "Profamilia 150 m al sur Juigalpa Chontales"
   },
   {
-    "cargo": "Seguridad ",
     "nombres": "Carlos Roberto",
-    "apellidos": " Pérez Alvarado",
+    "apellidos": "Pérez Alvarado",
+    "cargo": "Seguridad Interna",
     "inss": 13678368,
-    "cedula": "121-310782-0006D",
-    "direccion": "Costado Este Colegio Regina Mundo 4 C. al Sur 1/2 C. al Oeste. Juigalpa, Chontales."
+    "cedula": "1213107820006D",
+    "direccion": "Costado Este Colegio Regina Mundi 4 C. al Sur y 1/2 C. al Oeste, Juigalpa, Chontales."
   },
   {
-    "cargo": "Docente",
     "nombres": "Ronald de Jesús",
-    "apellidos": " Guido Urbina",
+    "apellidos": "Guido Urbina",
+    "cargo": "Docente",
     "inss": 13946236,
     "cedula": "603-180877-0004P",
     "direccion": "Dissur, 75 varas al Oeste, Juigalpa Chontales."
   },
   {
-    "cargo": "Docente",
     "nombres": "María Mercedes",
-    "apellidos": " Zapata Quintanilla",
+    "apellidos": "Zapata Quintanilla",
+    "cargo": "Secretaria Académica",
     "inss": 8962946,
     "cedula": "001-140666-0001E",
-    "direccion": "Juigalpa, chontales, Zona N° 7 Rpto.Juan Pablo II  casa#67 \nCancha Padre Miguel 2c 1/2 al sur."
+    "direccion": "Juigalpa, chontales, Zona N° 7 Rpto.Juan Pablo II casa#67 \nCancha Padre Miguel 2c 1/2 al sur."
   },
   {
-    "cargo": "Vice Decano",
+    "nombres": "Carla Vanesa",
+    "apellidos": "Ortiz Ramos",
+    "cargo": "Docente",
+    "inss": 9195994,
+    "cedula": "125-231272-0000L",
+    "direccion": "De la Escuela Rosa Lanzas 2 cuadras al oeste 1/2 cuadra al norte. Juigalpa, Chontales."
+  },
+  {
     "nombres": "Marcos Antonio",
-    "apellidos": " Reyes Centeno.",
+    "apellidos": "Reyes Centeno",
+    "cargo": "Vice Decano",
     "inss": 10779918,
-    "cedula": "126 251267 0000K",
+    "cedula": "126-251267-0000K",
     "direccion": "Bosques de Juigalpán, rotonda 1c al norte, 3c al oeste, 40 mts norte."
   },
   {
-    "cargo": "Docente",
     "nombres": "William René",
-    "apellidos": " Pérez Aburto",
+    "apellidos": "Pérez Aburto",
+    "cargo": "Docente",
     "inss": 15121259,
     "cedula": "001-081066-0069R",
     "direccion": "Bo. La Morenita, Juigalpa, Chontales"
   },
   {
-    "cargo": "Docente",
     "nombres": "Kettys Raquel",
-    "apellidos": " Díaz Torres",
+    "apellidos": "Díaz Torres",
+    "cargo": "Docente",
     "inss": 27202807,
     "cedula": "121-161083-0002F",
-    "direccion": "Juigalpa, Chontales, Barrio Santa Clara, procuraduría 1C al Oeste "
+    "direccion": "Juigalpa, Chontales, Barrio Santa Clara, procuraduría 1C al Oeste"
   },
   {
-    "cargo": "Docente",
     "nombres": "Cecil José",
-    "apellidos": " Morales Centeno",
+    "apellidos": "Morales Centeno",
+    "cargo": "Docente",
     "inss": 26237633,
     "cedula": "121-080388-0003R",
-    "direccion": "Gasolinera PUMA 3c 1/2 al Este. "
+    "direccion": "Gasolinera PUMA 3c 1/2 al Este."
   },
   {
-    "cargo": "Docente",
+    "nombres": "Yobari Ariel",
+    "apellidos": "López Ubrina",
+    "cargo": "Oficinista",
+    "inss": 12111058,
+    "cedula": "121-110585-0006F",
+    "direccion": "Juigalpa. Bo. Madrid, Bar Gali 1C al Oeste 1C al SuR"
+  },
+  {
+    "nombres": "Xiomara del Socorro",
+    "apellidos": "Hurtado Pérez",
+    "cargo": "Oficinista",
+    "inss": 17540805,
+    "cedula": "121-190175-0002W",
+    "direccion": "de Gasolinera UNO Petrol 125 varas al este juigalpa"
+  },
+  {
     "nombres": "Miguel Ángel",
-    "apellidos": " Sequeira Hernández",
+    "apellidos": "Sequeira Hernández",
+    "cargo": "Director de Departamento",
     "inss": 3723915,
     "cedula": "121-290961-0002W",
     "direccion": "De donde fué el Bar central 2c.Al norte 2c. al Norte y media al oeste."
   },
   {
-    "cargo": "Oficinista",
-    "nombres": "Yobari Ariel",
-    "apellidos": " López Ubrina",
-    "inss": 12111058,
-    "cedula": "121-110585-0006F",
-    "direccion": " Juigalpa. Bo. Madrid, Bar Gali 1C al Oeste 1C al SuR"
-  },
-  {
-    "cargo": "Oficinista",
-    "nombres": "Xiomara del Socorro",
-    "apellidos": " Hurtado Pérez ",
-    "inss": 17540805,
-    "cedula": "121-190175-0002W",
-    "direccion": "de Gasolinera UNO Petrol 125 varas al este juigalpa "
-  },
-  {
-    "cargo": "Oficinista",
     "nombres": "Oscar Isaias",
-    "apellidos": " Amador Requenes",
+    "apellidos": "Amador Requenes",
+    "cargo": "Téc. A en Archivo",
     "inss": 21446137,
     "cedula": "121-261181-0004w",
     "direccion": "Barrio 30 de mayo Iglesia Bettel 2 C al Oeste 1/2 al Norte Juigalpa Chontales"
   },
   {
-    "cargo": "Contador",
     "nombres": "Santos Javier",
-    "apellidos": " Dávila Masis",
+    "apellidos": "Dávila Masís",
+    "cargo": "Contador",
     "inss": 11542838,
     "cedula": "121-091275-0008D",
     "direccion": "Gasolinera Puma 4c al Oeste 3 1/2c al Norete"
   },
   {
-    "cargo": "Oficinista",
     "nombres": "Michel Roberto",
     "apellidos": "Traña Tablada",
+    "cargo": "Oficinista",
     "inss": 27514207,
     "cedula": "121-020993-0004R",
     "direccion": "Lubricentro \"Álvarez\" 4C al oeste 20 Varas al Sur"
   },
   {
-    "cargo": "Docente",
     "nombres": "Dionicio",
-    "apellidos": " Manzanares López",
+    "apellidos": "Manzanares López",
+    "cargo": "Docente",
     "inss": 10744341,
     "cedula": "616-230371-0003A",
     "direccion": "Terminal Ruta 5, 1 cuadra al Oeste, barrio bella vista"
   },
   {
-    "cargo": "Resp. Bodega",
     "nombres": "Anielka Maryuri",
-    "apellidos": " Oporta",
+    "apellidos": "Oporta",
+    "cargo": "Responsable de Bodega",
     "inss": 21547027,
     "cedula": "121-231288-0003H",
-    "direccion": "Cementerio 1  Sur, 2  Oeste 1/2  Sur"
+    "direccion": "Cementerio 1 Sur, 2 Oeste 1/2 Sur"
   },
   {
-    "cargo": "Inventario",
     "nombres": "Mary Cristi",
-    "apellidos": " Arostegui Orozco",
+    "apellidos": "Arosteguí Orozco",
+    "cargo": "Responsable de Inventario",
     "inss": 16300273,
     "cedula": "121-110384-0003U",
-    "direccion": "Cmca. El lajero Finca las Brisas "
+    "direccion": "Cmca. El lajero Finca las Brisas"
   },
   {
-    "cargo": "Docente",
     "nombres": "Indiana Ramona",
-    "apellidos": " Montoya Dompé ",
+    "apellidos": "Montoya Dompé",
+    "cargo": "Docente",
     "inss": 19093433,
     "cedula": "121-140583-0001S",
-    "direccion": "Bo. el Santuario, puente 2da entrada 2c al Sur, Juigalpa "
+    "direccion": "Bo. el Santuario, puente 2da entrada 2c al Sur, Juigalpa"
   },
   {
-    "cargo": "Aux. Contador",
     "nombres": "Ruth",
-    "apellidos": " Miranda Castrillo",
+    "apellidos": "Miranda Castrillo",
+    "cargo": "Aux. Contador",
     "inss": 4739032,
     "cedula": "121-120463-0001Q",
     "direccion": "Bo. Madrid Casa Numero 42 / Comedor Lumbi 1/2 c. al sur"
   },
   {
-    "cargo": "Conserje",
     "nombres": "Alexander Ramón",
-    "apellidos": " Mercado Vargas",
+    "apellidos": "Mercado Vargas",
+    "cargo": "Conserje",
     "inss": 19102447,
     "cedula": "121-051285_0002J",
-    "direccion": "Frente portón cementerio municipal juigalpa "
+    "direccion": "Frente portón cementerio municipal juigalpa"
   },
   {
-    "cargo": "Higiene y Seguridad",
-    "nombres": "Henry Andres",
-    "apellidos": " Vargas Lopez",
+    "nombres": "Henry Andrés",
+    "apellidos": "Vargas López",
+    "cargo": "Higiene y seguridad",
     "inss": 29137969,
     "cedula": "362-160287-0001W",
     "direccion": "Costado norte del Cementerio Municipal"
   },
   {
-    "cargo": "Docente",
     "nombres": "Ligia Nancy",
-    "apellidos": " Cajina Pérez",
+    "apellidos": "Cajina Pérez",
+    "cargo": "Docente",
     "inss": 1718355,
-    "cedula": "001-291248-0006E",
-    "direccion": "Cruz Roja cuadras al sur, cuadra al oeste y 25.vs. Sur"
+    "cedula": "001-2912480006E",
+    "direccion": "Cruz Roja 2 cuadras al sur, cuadra al oeste y 25.vs. Sur"
   },
   {
-    "cargo": "Docente",
     "nombres": "Saira María",
-    "apellidos": " Urbina Cienfuegos",
+    "apellidos": "Urbina Cienfuegos",
+    "cargo": "Docente",
     "inss": 16792098,
     "cedula": "121-150682-0005L",
     "direccion": "Rot. Juigalpan 4C al sur 25 varas al oeste, Juigalpa"
   },
   {
-    "cargo": "Docente",
     "nombres": "Miriam Patricia",
-    "apellidos": " Téllez Marín",
+    "apellidos": "Téllez Marín",
+    "cargo": "Docente",
     "inss": 13858797,
     "cedula": "121-021074-0000W",
     "direccion": "Del Restaurante TipTop 2 1/2 C. Oeste, Juigalpa"
   },
   {
-    "cargo": "Docente",
     "nombres": "Jazcar Josué",
-    "apellidos": " Bravo Rivas",
+    "apellidos": "Bravo Rivas",
+    "cargo": "Docente",
     "inss": 1777807,
     "cedula": "121-280882-0005C",
     "direccion": "MINSA 2 1/2 C. al sur"
   },
   {
-    "cargo": "Docente",
     "nombres": "Francis Raquel",
-    "apellidos": " Gallardo Bravo",
+    "apellidos": "Gallardo Bravo",
+    "cargo": "Docente",
     "inss": 15314240,
     "cedula": "121-160675-0003Y",
     "direccion": "Gasolinera Puma 5 1/2 cuadras al oeste, Juigalpa"
   },
   {
-    "cargo": "Docente",
-    "nombres": "Ronald de Jesús",
-    "apellidos": " Guido Urbina",
-    "inss": 13946236,
-    "cedula": "603-180877-0004P",
-    "direccion": "Dissur, 75 varas al Oeste. Juigalpa, Chontales."
-  },
-  {
-    "cargo": "Técnico Docente",
     "nombres": "Alfredo Antonio",
-    "apellidos": " Rodríguez Torres",
+    "apellidos": "Rodríguez Torres",
+    "cargo": "Técnico",
     "inss": 22331865,
     "cedula": "121-120685-0001J",
     "direccion": "De la gaviota 2 c al oeste , 1/2 c al sur, Juigalpa."
   },
   {
-    "cargo": "Técnico Docente",
     "nombres": "Cristhyam Eliuth",
-    "apellidos": " Núñez Aguilar",
+    "apellidos": "Núñez Aguilar",
+    "cargo": "Técnico",
     "inss": 19342342,
     "cedula": "121-221091-0002A",
     "direccion": "Barrio Nuevo Amanecer 2da etapa casa N° 7"
   },
   {
-    "cargo": "Docente",
     "nombres": "Ligia Modestana",
-    "apellidos": " Urbina Madriz",
+    "apellidos": "Urbina Madriz",
+    "cargo": "Docente",
     "inss": 3705669,
     "cedula": "121-191158-0002E",
     "direccion": "De la UNO Petrol 1 1/2C al este"
   },
   {
-    "cargo": "Docente",
     "nombres": "María de Lourdes",
-    "apellidos": " Ruiz Díaz",
+    "apellidos": "Ruiz Díaz",
+    "cargo": "Docente",
     "inss": 2793180,
     "cedula": "362-120654-0000S",
     "direccion": "Escuela 17 de Julio 1 cuadra al Oeste Juigalpa - Chontales"
   },
   {
-    "cargo": "Docente",
     "nombres": "Henry Alexander",
-    "apellidos": " Murillo Reyes ",
+    "apellidos": "Murillo Reyes",
+    "cargo": "Docente",
     "inss": 20667384,
     "cedula": "123 151085 0001B",
-    "direccion": "Del INTA 3 C al Norte, Barrio Sandino, santo  Tomás.  "
+    "direccion": "Del INTA 3 C al Norte, Barrio Sandino, santo Tomás."
   },
   {
-    "cargo": "Docente",
     "nombres": "Isamar",
-    "apellidos": " Bonilla Martínez",
+    "apellidos": "Bonilla Martínez",
+    "cargo": "Docente",
     "inss": 30698455,
     "cedula": "121-300692-0007R",
     "direccion": "Comarca San Nicolás km 124 carretera Managua-Rama"
   },
   {
-    "cargo": "Docente",
     "nombres": "José Eligio",
-    "apellidos": " Guzmán Contreras",
+    "apellidos": "Guzmán Contreras",
+    "cargo": "Docente",
     "inss": 8211682,
     "cedula": "127-280470-0004C",
-    "direccion": "Bo. 3o de Mayo. Iglesia Bethel 3c. Oeste. "
+    "direccion": "BO. 30 de Mayo. Iglesia Bethel 3c. Oeste."
   },
   {
-    "cargo": "Docente",
     "nombres": "María Luisa",
-    "apellidos": " Castilla Espinoza",
+    "apellidos": "Castilla Espinoza",
+    "cargo": "Docente",
     "inss": 3747249,
     "cedula": "121-250862-0001A",
     "direccion": "De las bodegas de la Alcaldía 1c al norte, 1c al este, 1/2c al norte"
   },
   {
-    "cargo": "Docente",
     "nombres": "Azucena",
-    "apellidos": " Altamirano Lumbí",
+    "apellidos": "Altamirano Lumbí",
+    "cargo": "Docente",
     "inss": 10876945,
     "cedula": "126-280267-0001C",
-    "direccion": "De Casa Cross 1 C al norte "
+    "direccion": "De Casa Cross 1 C al norte"
   },
   {
-    "cargo": "Docente",
-    "nombres": "Karla Patricia",
-    "apellidos": " Castilla",
-    "inss": 11481801,
-    "cedula": "001-131174-0096U",
-    "direccion": "Del parque de la niñex feliz 2 1/2 al oeste Barrio Nuevo Amanecer 2 da etapa."
-  },
-  {
-    "cargo": "Docente",
     "nombres": "Narciso Lenin",
-    "apellidos": " Duarte Acevedo",
+    "apellidos": "Duarte Acevedo",
+    "cargo": "Docente",
     "inss": 19664905,
     "cedula": "121-030883-0002P",
     "direccion": "Carretera Puerto Diaz, contiguo antigua Clorera ENACAL, a 800 metros de la UNAN FAREM Chontales."
   },
   {
-    "cargo": "Docente",
     "nombres": "Juan Gabriel",
-    "apellidos": " Romero Moraga",
+    "apellidos": "Romero Moraga",
+    "cargo": "Docente",
     "inss": 27262193,
     "cedula": "1231201910000C",
     "direccion": "DDF Policlinico 1 1/2x al Oeste Santo Tomas Chontales"
   },
   {
-    "cargo": "Docente",
     "nombres": "Yeisel Margarita",
-    "apellidos": " Jirón Guzmán",
+    "apellidos": "Jirón Guzmán",
+    "cargo": "Docente",
     "inss": 30112829,
     "cedula": "124-130391-0000K",
     "direccion": "Cementerio 3 cuadras al oeste, 20 varas al sur, Juigalpa."
   },
   {
-    "cargo": "Oficinista",
     "nombres": "Idalia del Carmen",
-    "apellidos": " Sequeira",
+    "apellidos": "Sequeira",
+    "cargo": "Oficinista",
     "inss": 13877244,
     "cedula": "121_270878_0005W",
     "direccion": "Del cementerio 2 C al sur 1/2 al oeste."
   },
   {
-    "cargo": "Docente",
     "nombres": "Lilliam Delia",
-    "apellidos": " Pérez González",
+    "apellidos": "Pérez González",
+    "cargo": "Docente",
     "inss": 11344212,
     "cedula": "1230405780000G",
     "direccion": "Entrada de donde fue el Gaviota 3c al oeste 20 varas al sur. Barrio Padre Miguel."
   },
   {
-    "cargo": "Docente",
     "nombres": "Dulce María",
-    "apellidos": " Amador Castro",
+    "apellidos": "Amador Castro",
+    "cargo": "Docente",
     "inss": 29047101,
     "cedula": "121-060390-0008G",
     "direccion": "Gasolinera puma 2 cuadras al este 1/2 cuadra al sur, Juigalpa."
   },
   {
-    "cargo": "Docente",
-    "nombres": "Concepción",
-    "apellidos": " Mendoza Castro",
-    "inss": 9563700,
-    "cedula": "603-201967-0001H",
-    "direccion": "Portón del zoológico 31/2 c al sur juigalpa"
-  },
-  {
-    "cargo": "Docente",
     "nombres": "Ismael",
-    "apellidos": " Martínez Díaz",
+    "apellidos": "Martínez Díaz",
+    "cargo": "Docente",
     "inss": 12233249,
     "cedula": "001-240175-0002V",
     "direccion": "Bosques de Juigalpan Casa F-14"
   },
   {
-    "cargo": "Decano",
+    "nombres": "Concepción",
+    "apellidos": "Mendoza Castro",
+    "cargo": "Docente",
+    "inss": 9563700,
+    "cedula": "603-201967-0001H",
+    "direccion": "Portón del zoológico 31/2 c al sur juigalpa"
+  },
+  {
     "nombres": "Emilio José",
-    "apellidos": " López Jarquín",
+    "apellidos": "López Jarquín",
+    "cargo": "Decano",
     "inss": 4746706,
     "cedula": "481-130856-0001S",
     "direccion": "Portón JJ 300 metros al Sur. Juigalpa, Chontales, Nicaragua"
   },
   {
-    "cargo": "Docente",
     "nombres": "Carmen Dolores",
-    "apellidos": " Castrillo Reyes",
+    "apellidos": "Castrillo Reyes",
+    "cargo": "Docente",
     "inss": 11459875,
     "cedula": "121-290477-0004E",
     "direccion": "Rest. La Quinta 1 1/2c al Norte, 2 1/2 c al Oeste."
   },
   {
-    "cargo": "Docente",
     "nombres": "Eveling Yahoska",
-    "apellidos": " Urbina Arana",
+    "apellidos": "Urbina Arana",
+    "cargo": "Docente",
     "inss": 24810524,
     "cedula": "121-190388-0004R",
-    "direccion": "Barrio Madrid del antiguo taller de chocoyo 1/2 c al oeste, Casa 30 "
+    "direccion": "Barrio Madrid del antiguo taller de chocoyo 1/2 c al oeste, Casa 30"
   },
   {
-    "cargo": "Oficinista",
     "nombres": "Iveria",
-    "apellidos": " Vargas",
+    "apellidos": "Vargas",
+    "cargo": "Oficinista",
     "inss": 15565675,
     "cedula": "121-291278-0002Y",
     "direccion": "Bº 30 de mayo iglesia betel 1 c al oeste, Juigalpa ch."
   },
   {
-    "cargo": "Asist. Administrativa",
     "nombres": "Robertina del Carmen",
-    "apellidos": " Villegas López",
+    "apellidos": "Villegas López",
+    "cargo": "Asist. Administrativa",
     "inss": 19971656,
     "cedula": "121-160979-0014J",
     "direccion": "Colegio San Francisco de Asís 1½ cuadra al este. Juigalpa, Chontales."
   },
   {
-    "cargo": "Oficinista",
     "nombres": "María Francisca",
-    "apellidos": " Martínez Jiménez",
+    "apellidos": "Martínez Jiménez",
+    "cargo": "Oficinista",
     "inss": 5507649,
     "cedula": "121 - 020464 - 0006T",
     "direccion": "Gasolinera UNO 75 varas al Oeste"
   },
   {
-    "cargo": "Deporte",
     "nombres": "Jacob",
-    "apellidos": " Rodriguez Calero",
+    "apellidos": "Rodríguez Calero",
+    "cargo": "Instructor de Deporte",
     "inss": 6161444,
     "cedula": "1212803610000D",
     "direccion": "Bo. Cruz Verde, C.S.T. 1/2 C.o."
   },
   {
-    "cargo": "Docente",
-    "nombres": "Carla Vanesa",
-    "apellidos": " Ortiz Ramos",
-    "inss": 9195994,
-    "cedula": "125-231272-0000L",
-    "direccion": "De la escuela Rosa Lanzas 2 cuadras al oeste 1/2 cuadra al  norte. Juigalpa,chontales"
-  },
-  {
-    "cargo": "Docente",
     "nombres": "Raquel Marie",
-    "apellidos": " Sing Brooks",
+    "apellidos": "Sing Brooks",
+    "cargo": "Docente",
     "inss": 5805286,
     "cedula": "601-070464-0001W",
     "direccion": "Juigalpa Barrio Madrid casa 9"
   },
   {
-    "cargo": "Docente",
-    "nombres": "Gladimir",
-    "apellidos": " Peralta Contreras",
-    "inss": 2740302,
-    "cedula": "123-280154-00001P",
-    "direccion": "Casas Minvah Zona 4, Donde fué Gasolinera Texaco  3c .Oeste 1c. Sur y 1/2 c.Oeste. Casa No. 25. Juigalpa, Chontales."
-  },
-  {
-    "cargo": "Docente",
     "nombres": "Nuvia Petrona",
-    "apellidos": " Duarte Centeno",
+    "apellidos": "Duarte Centeno",
+    "cargo": "Docente",
     "inss": 16262566,
     "cedula": "362-090282-0005N",
     "direccion": "Bosques de Juigalpan, de la rotonda 2 cuadras al sur 75 varas al oeste, casa numero U4"
   },
   {
-    "cargo": "Aseo",
     "nombres": "Sheyla Maria",
-    "apellidos": " Medina Ortega",
+    "apellidos": "Medina Ortega",
+    "cargo": "Aseo",
     "inss": 24810375,
     "cedula": "127-1709830003G",
     "direccion": "Barrio Tamanes Frente A Quinta Olga"
+  },
+  {
+    "nombres": "Jenny del Socorro",
+    "apellidos": "Villanueva",
+    "cargo": "Docente",
+    "inss": 7302132,
+    "cedula": "121-100770-0005W",
+    "direccion": "Bodega de la Alcaldia 1 c. al norte y 1 1/2 al oeste Juigalpa"
+  },
+  {
+    "nombres": "Roberto Ariel",
+    "apellidos": "Briceño Moraga",
+    "cargo": "Docente",
+    "inss": 6486181,
+    "cedula": "365-281167-0003U",
+    "direccion": "Residencial Bosques de Juigalpan, casa A-4, Juigalpa - Chontales"
+  },
+  {
+    "nombres": "Jose Angel",
+    "apellidos": "Vargas Taleno",
+    "cargo": "Docente",
+    "inss": 12787555,
+    "cedula": "124-021177-0001Q",
+    "direccion": "BO La Morenita, Pulperia Laguna 1/2 C Al Sur 50 Mts . O"
+  },
+  {
+    "nombres": "Marta Elizabeth",
+    "apellidos": "Miranda Téllez",
+    "cargo": "Docente",
+    "inss": 7338782,
+    "cedula": "121-090469-0000A",
+    "direccion": "Curacao 3 1/2 C Al Sur"
+  },
+  {
+    "nombres": "Jader Wilder",
+    "apellidos": "González Solís",
+    "cargo": "Docente",
+    "inss": 13204415,
+    "cedula": "121-150278-0007J",
+    "direccion": "Gasolinera Puma 6 C Al Oeste Y 1/2 C Al Norte"
+  },
+  {
+    "nombres": "Madia Gisselle",
+    "apellidos": "Morales Soza",
+    "cargo": "Docente",
+    "inss": 897998,
+    "cedula": "123-231071-0001U",
+    "direccion": "BO Padre Miguel , Ministerio De La Familia 2 C Al Sur"
+  },
+  {
+    "nombres": "Yuber Ariel",
+    "apellidos": "Lazo Guerrero",
+    "cargo": "Docente",
+    "inss": 13679749,
+    "cedula": "1210309760005M",
+    "direccion": "Parque Ruben Dario 1c y 10 vrs al norte"
+  },
+  {
+    "nombres": "Karla",
+    "apellidos": "Patricia Acevedo",
+    "cargo": "Docente",
+    "inss": 13810700,
+    "cedula": "121-210479-0002Y",
+    "direccion": "Primera entrada de las morenitas 1c al sur, Juigalpa Chontales"
+  },
+  {
+    "nombres": "Rita Elena",
+    "apellidos": "Vargas Toledo",
+    "cargo": "Docente",
+    "inss": 20551582,
+    "cedula": "121- 220584- 0002F",
+    "direccion": "Gasolinera Uno Petrol 5 C 1/2 al Oeste."
+  },
+  {
+    "nombres": "Melissa del Socorro",
+    "apellidos": "Meléndez Avendaño",
+    "cargo": "Docente",
+    "inss": 22159418,
+    "cedula": "281-151283-0006D",
+    "direccion": "Zona N° 5, Banco de Finanzas 1 1/2 c. Sur Juigalpa Chontales"
+  },
+  {
+    "nombres": "Daniel Eloy",
+    "apellidos": "López Blanco",
+    "cargo": "Docente",
+    "inss": 10143913,
+    "cedula": "281-131264-0020S",
+    "direccion": "Residencial Bosque De Juigalpan Casa E 17 Juigalpa Chontales"
+  },
+  {
+    "nombres": "Mirthala",
+    "apellidos": "Espino Bravo",
+    "cargo": "Docente",
+    "inss": 10813395,
+    "cedula": "124-070570-0000Y",
+    "direccion": "Hotel Quintanilla 1/2c. O, 2c S y 35 vrs. O Juigalpa, Chontales."
+  },
+  {
+    "nombres": "Eduardo José",
+    "apellidos": "Matuz Gutiérrez",
+    "cargo": "Conductor",
+    "inss": 6890786,
+    "cedula": "121-080971-0005A",
+    "direccion": "Barrio Nuevo Amanecer, casa Nº 81. Juigalpa, Chontales"
+  },
+  {
+    "nombres": "Zenayda Aurora",
+    "apellidos": "Suárez",
+    "cargo": "Docente",
+    "inss": 8969824,
+    "cedula": "616-030772-0001A",
+    "direccion": "Hospital Asunción 2 c/N 1 c /O Juigalpa Chontales"
+  },
+  {
+    "nombres": "José Alberto",
+    "apellidos": "Mora Maltez",
+    "cargo": "Docente",
+    "inss": 7136777,
+    "cedula": "001-170261-0041F",
+    "direccion": "Bo. Virgen María, Museo 1/2 C al este 1/2 C al norte"
+  },
+  {
+    "nombres": "Mirna Idania",
+    "apellidos": "Mendoza Bravo",
+    "cargo": "Docente",
+    "inss": 22084192,
+    "cedula": "121-110482-0000J",
+    "direccion": "Silais 1 cuadra al Sur 1/2 cuadra al Este"
+  },
+  {
+    "nombres": "Marbel Isela",
+    "apellidos": "Carrillo Gutiérrez",
+    "cargo": "Docente",
+    "inss": 19263135,
+    "cedula": "121-141282-0003V",
+    "direccion": "Bar y Restaurante La Yunta media cuadra al sur"
+  },
+  {
+    "nombres": "Janet Isabel",
+    "apellidos": "González González",
+    "cargo": "Docente",
+    "inss": 3265479,
+    "cedula": "001-050562-0092Y",
+    "direccion": "BO. Los Angeles De Donde Fue Clinica San Lucas 75 Vrs Al Sur"
+  },
+  {
+    "nombres": "María Engracia",
+    "apellidos": "Peralta López",
+    "cargo": "Docente",
+    "inss": 3747076,
+    "cedula": "121-230361-0003V",
+    "direccion": "Reparto Santa Ana casa #28, Zona #2, Juigalpa"
+  },
+  {
+    "nombres": "Gladimir",
+    "apellidos": "Peralta Contreras",
+    "cargo": "Docente",
+    "inss": 2740302,
+    "cedula": "123-280154 -0001P",
+    "direccion": "Donde fue Gasolinera Texaco 3C O. 1C. S. 1/2C. O. Casa No. 25, Zona 4. Juigalpa, Chontales."
+  },
+  {
+    "nombres": "Yadira Julissa",
+    "apellidos": "Quezada González",
+    "cargo": "Docente",
+    "inss": 14057601,
+    "cedula": "123-191078-0000W",
+    "direccion": "De Enitel 5 cuadras y media al norte, barrio Suyapa. Santo Tomas Chontales"
+  },
+  {
+    "nombres": "Manuel Ramón",
+    "apellidos": "Ortiz García",
+    "cargo": "Docente",
+    "inss": 4134620,
+    "cedula": "125-220257-0000A",
+    "direccion": "Gasolinera puma 5 c. al oeste 3 c al norte, Juigalpa"
+  },
+  {
+    "nombres": "Carlos Miguel",
+    "apellidos": "Matamoros Osorio",
+    "cargo": "Docente",
+    "inss": 20066783,
+    "cedula": "121-090887-0001E",
+    "direccion": "De la cancha del Padre Miguel 1 cuadra al oeste y 1/2 cuadra al sur."
+  },
+  {
+    "nombres": "Tirza Patricia",
+    "apellidos": "González Barberena",
+    "cargo": "Docente",
+    "inss": 20867250,
+    "cedula": "121-210785-0003M",
+    "direccion": "Frente a la Subasta Ganadera la Chontaleña"
+  },
+  {
+    "nombres": "Amin Andres",
+    "apellidos": "Flores",
+    "cargo": "Docente",
+    "inss": 25035427,
+    "cedula": "604-070890-0000H",
+    "direccion": "Lubricentos Alvarez 1/2 c. al Oeste Juigalpa Chontales"
+  },
+  {
+    "nombres": "Nestor Amir",
+    "apellidos": "Otero Zeledón",
+    "cargo": "Técncio",
+    "inss": 24604130,
+    "cedula": "121-110484-0005D",
+    "direccion": "Del colegio Floresmilda Días 2c al oeste 1c al norte Juigalpa Chontales"
+  },
+  {
+    "nombres": "Jorge Rafael",
+    "apellidos": "Ortíz Torres",
+    "cargo": "Técnico Docente",
+    "inss": 19969679,
+    "cedula": "561-220479-0001C",
+    "direccion": "Cruz Roja 7C al Sur, 1/2 C al Oeste, Santo Tomás, Chontales"
+  },
+  {
+    "nombres": "Evelyn Jeralldyn",
+    "apellidos": "Rodríguez Urbina",
+    "cargo": "Analista Documental Postgrado",
+    "inss": 24927354,
+    "cedula": "121-100286-0003A",
+    "direccion": "Bo. Bella Vista, Iglesia Maranatha 2 c Oeste, 1/2 c al Sur."
+  },
+  {
+    "nombres": "José Tomás",
+    "apellidos": "Rosales Sequeira",
+    "cargo": "Supervisor de Intendencia",
+    "inss": 19102430,
+    "cedula": "121-100482-0001H",
+    "direccion": "Bo. Bella Vista, Iglesia Maranatha 2c Oeste, 1/2 c al Sur."
+  },
+  {
+    "nombres": "Angela",
+    "apellidos": "González Romero",
+    "cargo": "Conserje",
+    "inss": 1521837,
+    "cedula": "126-290979-0002L",
+    "direccion": "Costado sur clínica materno infantil, Juigalpa Chontales."
+  },
+  {
+    "nombres": "Rolando Enrique",
+    "apellidos": "Cordero Aburto",
+    "cargo": "Director de Departamento",
+    "inss": 3983786,
+    "cedula": "001-290959-0007B",
+    "direccion": "Bo. Madrid, de la Escuela Enrique Tierno Galvan 1/2 C al este"
+  },
+  {
+    "nombres": "José Roberto",
+    "apellidos": "Ramírez Gálvez",
+    "cargo": "Director de Departamento",
+    "inss": 3334717,
+    "cedula": "122 010958 0000S",
+    "direccion": "Cementerio dos cuadras al oeste 75 varas al norte,Juigalpa.Ch."
+  },
+  {
+    "nombres": "Teddy Junior",
+    "apellidos": "Castro Hernández",
+    "cargo": "Docente",
+    "inss": 16719309,
+    "cedula": "888-240284-0000C",
+    "direccion": "Donde fue el bar central, Juigalpa"
   }
 ]
 
