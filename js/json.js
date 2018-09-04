@@ -8,14 +8,6 @@ var datos = [
    "direccion": "Rpto. San Ramón, entrada 3c al norte 1/2c oeste, Juigalpa, Chontales."
  },
  {
-   "nombres": "Carlos Rafael",
-   "apellidos": "Nicaragua Flores",
-   "cargo": "Cultura",
-   "inss": ,
-   "cedula": "1212410770000D",
-   "direccion": "Bo. Tamanes, Polideportivo 1c oeste 1/2c al sur, Juigalpa, Chontales"
- },
- {
    "nombres": "José Miguel",
    "apellidos": "Lacayo Rodríguez",
    "cargo": "Deporte",
