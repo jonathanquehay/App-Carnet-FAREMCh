@@ -1078,7 +1078,7 @@ function mostrarDatos() {
       <td>${datos[key].cedula}</td>
       <td>${datos[key].direccion}</td>
       <td>
-      <button onclick="editar('${datos[key].nombres}','${datos[key].apellidos}','${datos[key].cargo}','${datos[key].cedula}','${datos[key].inss}','${datos[key].direccion}')">
+      <button onclick="editar('${datos[key].nombres}','${datos[key].apellidos}','${datos[key].cargo}','${datos[key].inss}','${datos[key].cedula}','${datos[key].direccion}')">
       <i class="material-icons blue-text">edit</i></button></td>
       </tr>`;
 
