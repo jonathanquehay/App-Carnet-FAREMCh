@@ -107,7 +107,7 @@ hr{
   margin-top: 35px;
   margin-left: 0px;
   text-align: center;
-  border:5px solid rgb(58, 56, 56);
+  border:2px solid rgb(58, 56, 56);
 
   /* los siguientes valores son independientes del tamaño del círculo */
   background-repeat: no-repeat;
