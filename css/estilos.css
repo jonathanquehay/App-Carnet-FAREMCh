@@ -18,7 +18,6 @@
   white-space: nowrap;
   word-wrap: normal;
   direction: ltr;
-  -webkit-font-feature-settings: 'liga';
   -webkit-font-smoothing: antialiased;
 }
 
@@ -56,8 +55,8 @@ h6{
 }
 .card {
   margin-left: 120px;
-  width: 287px;
-  min-height: 446px;
+  width: 574px;
+  min-height: 892px;
   background-color: white;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
   position: relative;
@@ -70,14 +69,14 @@ h6{
 
 .card:after {
   top: 0;
-  content: 'Universidad Nacional Autónoma de Nicaragua UNAN-Managua | FAREM Chontales';
-  line-height: 12px;
+  content: 'Universidad Nacional Autónoma de Nicaragua UNAN-Managua  FAREM Chontales';
+  line-height: 20px;
   display: block;
-  width: 285px;
-  height: 32.7px;
+  width: 570px;
+  height: 55px;
   color: white;
   font-weight: bold;
-  font-size: 0.8em;
+  font-size: 1.1em;
   border-top: 0.35em solid #e07b07;
   border-bottom: 0.35em solid #e07b07;
   background: #056cb1;
@@ -88,13 +87,13 @@ h6{
 }
 
 hr{
-  width: 250px !important;
+  width: 300px !important;
   padding: 0;
   margin: 0;
 }
 
 .firma{
-  width: 150px;
+  width: 250px;
   padding: 0;
   margin: 0;
   margin-bottom: 12px;
@@ -102,12 +101,12 @@ hr{
 
 
 .firstinfo .avatar {
-  width: 150px;
-  height: 150px;
-  margin-top: 35px;
+  width: 300px;
+  height: 300px;
+  margin-top: 65px;
   margin-left: 0px;
   text-align: center;
-  border:5px solid rgb(58, 56, 56);
+  border:1px solid rgb(58, 56, 56);
 
   /* los siguientes valores son independientes del tamaño del círculo */
   background-repeat: no-repeat;
@@ -118,56 +117,56 @@ hr{
   filter:brightness(190%);
 }
 .firstinfo .profileinfo {
-  padding-top: 455px;
+  padding-top: 900px;
   position: absolute;
 }
 .firstinfo .profileinfo h1 {
-  font-size: 1.5em;
+  font-size: 3em;
   padding-top: 0;
   margin: 0;
   font-weight: bold;
 }
 .firstinfo .profileinfo h3 {
-  font-size: 1.2em;
+  font-size: 2.4em;
   color: #140152;
   font-family: 'Century Gothic', sans-serif;
   font-weight: bold;  
   margin: 0;
 }
 .firstinfo .profileinfo .bio{
-  width: 250px;
+  width: 500px;
   font-weight: bold;
   padding: 0;
   margin: 0;
   color: rgb(15, 15, 15);
   text-align: center;
+  font-size: 1.3em;
   
 }
 .firstinfo .profileinfo p.leyenda{
-  
-  font-size: 14px;
-  font-weight: 540;
+  font-size: 20px;
+  font-weight: 440;
   margin: 0;
   padding: 0;
-  line-height: 16px;
+  line-height: 22px;
   font-family: Arial;
   
 }
 
 .dir{
-  font-size: 11px;
+  font-size: 18px;
   overflow:hidden;
   width: 100%;
   font-family: Arial, Helvetica, sans-serif !important;
-  line-height: 10px;
-  height: 32px;
+  line-height: 28px;
+  height: 80px;
 }
 
 .pie {
   font-style: italic;
   color: rgb(15, 15, 15);
   padding: 0;
-  font-size: 0.7em;
+  font-size: 1.4em;
   border-bottom: 0.25em solid #e07b07;
 
 }
@@ -189,7 +188,10 @@ h6 {
 hr{
   width: 100%;
   padding: 0;
-  margin-top: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+  text-align: center;
 }
 .marca-de-agua {
   background-repeat: no-repeat;
@@ -203,7 +205,7 @@ hr{
   height: auto;
   opacity: 0.3;
   z-index: 0;
-  margin-top:400px;
+  margin-top:850px;
   
 }
 
